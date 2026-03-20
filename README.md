@@ -1,34 +1,34 @@
-# 🎓 Student Performance Prediction using Linear Regression
+#  Student Performance Prediction using Linear Regression
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts student performance (total_score) using Machine Learning. It applies Linear Regression to understand how factors like study hours, attendance, class participation, and grade affect a student's overall score.
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 - Source: Kaggle
 - File: student_performance.csv
 
-⚠️ Note: The dataset is not included in this repository due to GitHub file size limitations.
+ Note: The dataset is not included in this repository due to GitHub file size limitations.
 
-## 📥 Dataset Download
+##  Dataset Download
 Download the dataset from Kaggle and place it in the project folder before running the code.
 
 ---
 
-## 📂 Features
+##  Features
 - student_id
 - weekly_self_study_hours
 - attendance_percentage
 - class_participation
 - grade
 
-## 🎯 Target Variable
+##  Target Variable
 - total_score
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -38,7 +38,7 @@ Download the dataset from Kaggle and place it in the project folder before runni
 
 ---
 
-## 🚀 Workflow
+##  Workflow
 1. Import libraries  
 2. Load dataset  
 3. Handle missing values  
@@ -51,7 +51,7 @@ Download the dataset from Kaggle and place it in the project folder before runni
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 - Mean Absolute Error (MAE)  
 - Mean Squared Error (MSE)  
 - Root Mean Squared Error (RMSE)  
@@ -59,7 +59,7 @@ Download the dataset from Kaggle and place it in the project folder before runni
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 MAE  : 4.2  
 MSE  : 30.5  
 RMSE : 5.5  
@@ -67,17 +67,17 @@ R2 Score : 0.82
 
 ---
 
-## 📉 Visualization
+##  Visualization
 A scatter plot is used to compare actual vs predicted scores.
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 Linear Regression is a simple and effective model for predicting student performance when relationships between variables are linear. However, it may not capture complex patterns in data.
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 - Use advanced models like Random Forest or XGBoost  
 - Perform hyperparameter tuning  
 - Apply feature engineering  
@@ -85,7 +85,7 @@ Linear Regression is a simple and effective model for predicting student perform
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 1. Download dataset from Kaggle  
 2. Place `student_performance.csv` in the project folder  
 3. Install required libraries  
